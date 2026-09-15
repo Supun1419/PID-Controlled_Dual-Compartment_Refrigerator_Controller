@@ -1,0 +1,47 @@
+# Code Composer Studio / Eclipse workspace state
+.metadata/
+.settings/
+*.launch
+
+# Generated build output
+Debug/
+Release/
+build/
+out/
+*.out
+*.hex
+*.map
+*.elf
+*.obj
+*.o
+*.d
+*.mk
+*.log
+*.bin
+*_linkInfo.xml
+ccsObjs.opt
+
+# Generated SysConfig output (the .syscfg source remains tracked)
+syscfg/
+ti_drivers_config.c
+ti_drivers_config.h
+ti_ble_config.c
+ti_ble_config.h
+
+# Editor, OS, and tooling caches
+.clangd/
+.cache/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
+*.swp
+
+# TI example documentation copied into the original project root
+# (project-specific documentation is in README.md)
+README.html
+
+# Auto-generated clangd project configuration
+.clangd
