@@ -101,15 +101,3 @@ This repository contains prototype firmware and the intended control architectur
 ## Safety
 
 This project is not a certified appliance controller. A CC2340R5 output must **not** drive a mains compressor, fan, or heater directly. Use the compressor manufacturer's approved inverter/control input, appropriate isolation and level shifting, protected power stages, fusing, grounding, watchdogs, independent thermal cut-outs, and fail-safe shutdown behavior. Work on mains-powered refrigeration equipment should be performed by qualified personnel.
-
-## Reference hardware
-
-<p align="center">
-  <img src="docs/images/compressor-reference.jfif" alt="Reference refrigerator compressor" width="360">
-</p>
-
-The pictured compressor is a visual project reference only; its label and interface requirements must be confirmed from the exact unit's manufacturer documentation.
-
-## License
-
-No project-wide license has been selected. Individual Texas Instruments-derived source files retain their existing copyright and license notices. Add a repository license only after confirming that it is compatible with every included component.
